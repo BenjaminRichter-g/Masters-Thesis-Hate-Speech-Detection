@@ -1,0 +1,25 @@
+{
+  "model_dir": "data/third_stage/race/race-setfit-model",
+  "dev_jsonl": "data/silver_data/silver_labeled.jsonl",
+  "label_key": "race",
+  "text_key": "clean_text",
+  "pos_precision_floor": 0.7,
+  "neg_precision_floor": 0.96,
+  "tau_pos": 0.6195717303852734,
+  "tau_neg": 0.4744241472592329,
+  "auprc_pos": 0.7025291347835426,
+  "auprc_neg": 0.9855196568457301,
+  "info_pos": {
+    "mode": "P\u22650.7",
+    "P": 0.7,
+    "R": 0.7325581395348837
+  },
+  "info_neg": {
+    "mode": "P\u22650.96",
+    "P": 0.9616204690831557,
+    "R": 0.9185336048879837
+  },
+  "n": 577,
+  "n_pos": 86,
+  "n_neg": 491
+}

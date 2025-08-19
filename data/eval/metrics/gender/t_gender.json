@@ -1,0 +1,25 @@
+{
+  "model_dir": "data/third_stage/gender/gender-setfit-model",
+  "dev_jsonl": "data/silver_data/silver_labeled.jsonl",
+  "label_key": "gender",
+  "text_key": "clean_text",
+  "pos_precision_floor": 0.5,
+  "neg_precision_floor": 0.9,
+  "tau_pos": 0.9882906121641931,
+  "tau_neg": 0.5,
+  "auprc_pos": 0.33050415988561455,
+  "auprc_neg": 0.985025550809204,
+  "info_pos": {
+    "mode": "P\u22650.5",
+    "P": 0.5,
+    "R": 0.47368421052631576
+  },
+  "info_neg": {
+    "mode": "P\u22650.9",
+    "P": 0.9341421143847487,
+    "R": 1.0
+  },
+  "n": 577,
+  "n_pos": 38,
+  "n_neg": 539
+}

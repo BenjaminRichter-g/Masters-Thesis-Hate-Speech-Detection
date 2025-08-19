@@ -1,0 +1,25 @@
+{
+  "model_dir": "data/third_stage/religion/religion-setfit-model",
+  "dev_jsonl": "data/silver_data/silver_labeled.jsonl",
+  "label_key": "religion",
+  "text_key": "clean_text",
+  "pos_precision_floor": 0.3,
+  "neg_precision_floor": 0.99,
+  "tau_pos": 0.9220081764701307,
+  "tau_neg": 0.16546562359592787,
+  "auprc_pos": 0.24086779651671703,
+  "auprc_neg": 0.9978573637541852,
+  "info_pos": {
+    "mode": "P\u22650.3",
+    "P": 0.3,
+    "R": 0.21428571428571427
+  },
+  "info_neg": {
+    "mode": "P\u22650.99",
+    "P": 0.9903474903474904,
+    "R": 0.911190053285968
+  },
+  "n": 577,
+  "n_pos": 14,
+  "n_neg": 563
+}
