@@ -30,14 +30,8 @@ if you'd like a higher accuracy but longer processing (especially without GPU) y
 python -m data.first_stage.relabel_null_to_english_transformer data/first_stage/output_timeline.jsonl
 ```
 
-To run the setfit_binary from root of project execute:
-
-```
-python -m data.first_stage.setfit_binary_inital
-```
-this will train n number of binary classifiers as provided in the labelled.jsonl, aka if 3 classes are definied such as race, religion and gender,
+To run the setfit_binary from root of project execute, this will train n number of binary classifiers as provided in the labelled.jsonl, aka if 3 classes are definied such as race, religion and gender,
 the script will return 3 binary classifiers. 
-Thus is can also be executed with:
 ```
 python -m data.first_stage.setfit_binary_inital -n race religion gender
 ```
