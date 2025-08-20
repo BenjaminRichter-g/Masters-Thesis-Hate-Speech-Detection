@@ -5,7 +5,7 @@
 Extract fresh data to ensure no contamination, execute this within the folder you want the data in:
 
 ```
-mastodoner instance --instance-url gameliberty.club --timeline output_timeline.jsonl --limit 10000
+mastodoner instance --instance-url gameliberty.club --timeline output_gold.jsonl --limit 10000
 ```
 
 10k was picked as with the natural distribution of data, the gold dataset will most likely be used more for false positives testing as
@@ -15,7 +15,7 @@ there is less than 1% of hate speech.
 
 ```
 python -m data.gold_data.sample_gold `
-  --input data/gold_data/output_timeline.jsonl `
+  --input data/gold_data/output_gold.jsonl `
   --output data/gold_data/gold_sample.jsonl `
   --n 600 `
   --seed 42
