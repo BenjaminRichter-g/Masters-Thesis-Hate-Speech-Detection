@@ -29,6 +29,7 @@ please create a .venv file too and paste your HuggingFace API key within it as s
 HF_TOKEN=KEY
 ```
 
-
+To use the pre-trained model weights, you can download them at the following link:
+https://drive.google.com/drive/folders/1NsjcJORroetmv2lhHKQ1JdA4w8UUIY4x?usp=sharing
 
 
